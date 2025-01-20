@@ -62,9 +62,9 @@ try:
 
     # Log in
     username_field = driver.find_element(By.XPATH, '/html/body/div/div[1]/div[1]/div/div[2]/div/div[2]/form/div[1]/div/div[2]/div/input')
-    username_field.send_keys('Marketplace2@adyogi.com')
+    username_field.send_keys("")
     password_field = driver.find_element(By.XPATH, '/html/body/div/div[1]/div[1]/div/div[2]/div/div[2]/form/div[2]/div[1]/div[2]/div/input')
-    password_field.send_keys("Mission@5Cr")
+    password_field.send_keys("")
     login_button = driver.find_element(By.XPATH, '//*[@id="app"]/div[1]/div[1]/div/div[2]/div/div[2]/form/div[3]/div[1]/button')
     login_button.click()
 
